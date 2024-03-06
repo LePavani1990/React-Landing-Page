@@ -1,3 +1,7 @@
+/* eslint-disable no-mixed-operators */
+/* eslint-disable eqeqeq */
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-expressions */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -9,6 +13,7 @@ if (typeof jQuery === 'undefined') {
 }
 
 +function ($) {
+  // eslint-disable-next-line strict
   'use strict';
   var version = $.fn.jquery.split(' ')[0].split('.')
   if ((version[0] < 2 && version[1] < 9) || (version[0] == 1 && version[1] == 9 && version[2] < 1) || (version[0] > 3)) {
@@ -26,6 +31,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
+  // eslint-disable-next-line strict
   'use strict';
 
   // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
@@ -86,7 +92,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // ALERT CLASS DEFINITION
   // ======================
@@ -181,6 +187,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
+  // eslint-disable-next-line strict
   'use strict';
 
   // BUTTON PUBLIC CLASS DEFINITION
@@ -307,7 +314,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // CAROUSEL CLASS DEFINITION
   // =========================
@@ -546,6 +553,7 @@ if (typeof jQuery === 'undefined') {
 /* jshint latedef: false */
 
 +function ($) {
+  // eslint-disable-next-line strict
   'use strict';
 
   // COLLAPSE PUBLIC CLASS DEFINITION
@@ -758,7 +766,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // DROPDOWN CLASS DEFINITION
   // =========================
@@ -924,7 +932,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // MODAL CLASS DEFINITION
   // ======================
@@ -1265,7 +1273,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // TOOLTIP PUBLIC CLASS DEFINITION
   // ===============================
@@ -1785,7 +1793,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // POPOVER PUBLIC CLASS DEFINITION
   // ===============================
@@ -1894,7 +1902,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // SCROLLSPY CLASS DEFINITION
   // ==========================
@@ -2067,7 +2075,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // TAB CLASS DEFINITION
   // ====================
@@ -2223,7 +2231,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // AFFIX CLASS DEFINITION
   // ======================
