@@ -27,12 +27,12 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
+            {/*<li>
               <a href="#features" className="page-scroll">
                 Como funciona?
               </a>
-            </li>
-            <li>
+        </li>*/}
+            <li> 
               <a href="#about" className="page-scroll">
                 Sobre nós
               </a>
@@ -52,11 +52,11 @@ export const Navigation = (props) => {
                 Testemunhos
               </a>
             </li>
-            <li>
+            {/*<li>
               <a href="#team" className="page-scroll">
                 Time
               </a>
-            </li>
+      </li>*/}
             <li>
               <a href="#contact" className="page-scroll">
                 Contacto
